@@ -134,3 +134,11 @@ section h2::after{
   grid-template-columns: repeat(auto-fit, minmax(260px));
   gap: 22px;
 }
+
+.card{
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 08);
+  transition: 0.3s ease;
+}
