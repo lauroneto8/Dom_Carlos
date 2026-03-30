@@ -129,3 +129,8 @@ section h2::after{
   border-radius: 10px;
 }
 
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px));
+  gap: 22px;
+}
